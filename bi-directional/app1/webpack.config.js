@@ -33,6 +33,7 @@ module.exports = {
       },
       exposes: {
         "./Button": "./src/Button",
+        "./depsFromParent": "./src/exports",
       },
       // sharing code based on the installed version, to allow for multiple vendors with different versions
       shared: [

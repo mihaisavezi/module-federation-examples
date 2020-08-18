@@ -1,4 +1,7 @@
 import React from "react";
+import { store, API } from "app1/depsFromParent";
+
+console.log("DEBUG:WEBPACK parentDeps in child app", { API, store });
 
 const style = {
   background: "#00c",

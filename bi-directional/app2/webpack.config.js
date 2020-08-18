@@ -33,6 +33,7 @@ module.exports = {
       },
       exposes: {
         "./Button": "./src/Button",
+        "./agenda-child-exports": "./src/demo-exports",
       },
       shared: [
         {
