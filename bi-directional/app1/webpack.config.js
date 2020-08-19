@@ -33,6 +33,7 @@ module.exports = {
       },
       exposes: {
         "./Button": "./src/Button",
+        "./hostExports": "./src/indexExternal",
       },
       // sharing code based on the installed version, to allow for multiple vendors with different versions
       shared: [

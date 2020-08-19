@@ -33,6 +33,7 @@ module.exports = {
       },
       exposes: {
         "./Button": "./src/Button",
+        "./remoteExports": "./src/demo-exports",
       },
       shared: [
         {
